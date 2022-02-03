@@ -1,201 +1,211 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Titan Networks</title>
-  <link href="./css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script>
-    document.oncontextmenu = function () {
-      return false;
-    };
-  </script>
+	<title>History.com</title>
+	<meta charset="utf-8" />
+	<style>
+		/* Preloader */
+		@keyframes bounce {
+			50% {
+				transform: translatey(-20px);
+			}
+
+			100% {
+				transform: translatey(20px);
+			}
+		}
+
+		.bounce div {
+			border-radius: 100%;
+			height: 10px;
+			width: 10px;
+			background-color: hsl(0, 0%, 100%);
+			animation: bounce 1s ease-in-out infinite;
+			position: absolute;
+			top: 0;
+			transform: translatey(20px);
+		}
+
+		.bounce div:first-of-type {
+			left: -20px;
+			animation-delay: 0.20s;
+		}
+
+		.bounce div:nth-of-type(2) {
+			animation-delay: 0.10s;
+		}
+
+		.bounce div:last-of-type {
+			left: 20px;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
 </head>
 
-<body onload="loafhide()">
+<body class="is-preload">
 
-  <header>
-    <img style="height: 102px;
-      cursor: wait;
-      padding: 15px;
-      z-index: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
-      bottom: 0px;
-      position: fixed;
-      transition: 0.5s;
-      opacity: 1;
-      left: 0px;" id="loader" src="./img/loader.gif">
-    <div class="navbar" id="mynavbar">
-      <a href="" class="logo">Titan Network</a>
-      <a href="#" onclick="openPage(event, 'contact')">Contact</a>
-      <a href="#" onclick="openPage(event, 'games');" ondblclick="gframe.src = gframe.src;loafshow()">Games</a>
-      <a href="#" id="indexPage" onclick="openPage(event, 'index') ">Home</a>
-      <a href="javascript:void(0);" class="icon" onclick="borger()">
+	<div class="bounce" style="position: absolute;top: 50%;right: 50%;transform: translate(50%,-50%);">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
 
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-  </header>
-  <main>
-    <!-- Tab content -->
-    <!-- index-->
-    <div id="index" class="tabcontent">
-      <div class="centerh containerc">
-        <h1>Titan Networks</h1>
-        <h2>Welcome To The World Of Freedom</h2>
-        <h4>With Titan's services, you can browse the internet freely without restriction and you do not have to worry
-          about your school/work/company being able to see your activities!</h4>
-        <h4>With absolutely no user data being stored on our end & our use of 128-bit SSL and TLS, your communications
-          are completely secure!</h4>
-        <h4>Use the navigation below to select your destination!</h4>
-        <a href="#" onclick="openPage(event, 'selection')" class="button">Surf Freely</a>
-        <a href="#" onclick="openPage(event, 'bookmarklets')" class="button">Bookmarklets</a>
-      </div>
-    </div>
-    <!-- end of index-->
-    <!-- games-->
-    <div id="games" class="tabcontent">
-      <iframe onload="loafhide()" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
-        oallowfullscreen="true" msallowfullscreen="true" id="gframe" src="./games.html"
-        style="position:fixed; top:50px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:9;"></iframe>
-    </div>
-    <!-- end of games-->
-    <!-- contact-->
-    <div id="contact" class="tabcontent">
-      <main>
-        <div class="centerh containerc">
-          <h1>This information is not yet for display</h1>
-        </div>
-      </main>
-    </div>
-    <!-- end of contact-->
-    <!--Bookmarklets-->
-    <div id="bookmarklets" class="tabcontent">
-      <main>
-        <div class="centerh containerc">
-          <h1>Titan Network</h1>
-          <h2>Bookmarklets</h2>
-          <h4>These bookmarklets are little scripts you put in your bookmarks bar to do cool stuff!</h4>
-          <h4>Setup of these bookmarklets is simple and it can get past tools like Hapara Highlights!</h4>
-          <h4>Drag A Bookmarklet To Your Bookmarks Bars</h4>
-          <h5>This feature has been temporary disabled</h5>
-        </div>
-      </main>
-    </div>
-    <!--end of Bookmarklets-->
+	<!-- Wrapper-->
+	<div id="wrapper">
 
+		<!-- Nav -->
+		<nav id="nav">
+			<a href="#" onclick="stopgame()" class="icon solid fa-home"><span>Home</span></a>
+			<a href="#history" onclick="stopgame()" class="icon solid fa-gamepad"><span>Games</span></a>
+			<a href="#web" onclick="stopgame()" class="icon solid fa-globe"><span>Proxy</span></a>
+			<a href="https://thedrowsy.com/#games" class="icon solid fa-chevron-left"><span>The Drowsy</span></a>
+		</nav>
 
-    <!-- Surf Freely-->
-    <div id="selection" class="tabcontent">
-      <div class="c-box containerb">
-        <h1 style="margin-top:9px;border-bottom:none;">This feature is temporary disabled</h1>
-        <!--<center>
-          
-        </center><center>
-          <form action="" method="get" id="web-search-box" style="transform:scale(1.1)">
-          <form action="./geographic/index.php" id="web-search-box" method="post" style="transform:scale(1.1)">
-            <p>
-              <center><p>Dont forget the https://</p>
-                      <a onclick="notice(1)" style="color: darkorange;text-decoration: underline;" href="#sinfo">To determine the best server click here</a>
-              </center>
-              <input type="text" placeholder="https://www.site.com" style="border:none;border-radius: 5px;padding:10px;" id="url"
-                autocomplete="false" name="url" />&nbsp;
-            <p></p>
-            <input type="button" id="localnode" class="selbuttonsbigger" value="Node" />
-            <input type="button" id="hyperpen" class="selbuttonsbigger" style="width:77px;" value="Hyperpen" />
-            <input type="submit" class="selbuttons" onclick="loafshow()" value="PHP" />
-            <script>
-              function notice(num) {
-                document.getElementById('c1info').style.color = 'red';
-                document.getElementById('c2info').style.color = 'red';
-                document.getElementById('c3info').style.color = 'red';
-                document.getElementById('c4info').style.color = 'red';
-                setTimeout(stopnotice, 3000)
-              }
+		<!-- Main -->
+		<div id="main">
 
-              function stopnotice() {
-                document.getElementById('c1info').style.color = 'white';
-                document.getElementById('c2info').style.color = 'white';
-                document.getElementById('c3info').style.color = 'white';
-                document.getElementById('c4info').style.color = 'white';
-              }
+			<!-- Me -->
+			<article id="home" class="panel intro">
+				<header>
+					<h1>Drowsy Games</h1>
+					<p>Formally know as Titan Network</p>
+				</header>
+			</article>
 
-              var host = location.hostname.split('.'),
-                purl = location.hostname,
-                ifr = document.getElementById('ifr');
-              if (host.length == 3) {
-                purl = `${host[1]}.${host[2]}`;
-              }
-              var nde = document.getElementById('localnode'),
-                url = document.getElementById('url');
+			<!-- Web -->
+			<article id="web" style="height: 123vh;" class="panel">
+				<header style="text-align: center;">
+					<script>
+						function startemu() {
+							var emustart = document.getElementById('emustart')
+							var emu = document.getElementById('emu')
 
-              nde.addEventListener('click', () => {
-                loafshow()
-                window.location.href = "https://nodesubyblock.herokuapp.com/" + url.value;
-              });
-              window.addEventListener('load', () => {
-                url.focus();
-              });
+							emustart.innerText = 'Press the green play button to start (when loaded)'
+							emustart.style.color = '#aaa';
+							emustart.style.textDecoration = 'none';
+							emu.src = "https://replit.com/@YodaCode/fx-us-3?lite=1&outputonly=1#.replit"
+						}
+					</script>
+					<h1>Proxy</h1>
+					<p>Browse the web freely</p>
+					<a onclick="startemu()"><p id="emustart" style="color: blue;cursor: pointer;text-decoration: underline;">Click here to load the proxy</p></a>
+				</header>
+				<section>
+					<iframe id="emu" src="about:blank"
+					style="position: absolute;top: 0px;left: 0px;width: 201%;height: 100vh;margin-top: 219.5px;"></iframe>
+				</section>
+			</article>
 
-              var url = document.getElementById('url');
+			<!-- Games -->
+			<article id="history" class="panel">
+				<header>
+					<h2>Games</h2>
+				</header>
+				<p>
+					All sorts of games to play at school.
+				</p>
+				<section>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#gclient" onclick="game(1)" class="image fit gameimg"><img class="gameimg"
+									src="images/2048.png" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#gclient" onclick="game(2)" class="image fit gameimg"><img class="gameimg"
+									src="https://via.placeholder.com/350x350px.png?text=Astray" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#gclient" onclick="game(3)" class="image fit gameimg"><img class="gameimg"
+									src="images/breaklock.png" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#gclient" onclick="game(4)" class="image fit gameimg"><img class="gameimg"
+									src="images/cookie.png" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#gclient" onclick="game(5)" class="image fit gameimg"><img class="gameimg"
+									src="images/fappybird.jfif" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#gclient" onclick="game(6)" class="image fit gameimg"><img class="gameimg"
+									src="images/hextrix-1.jpg" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#gclient" onclick="game(7)" class="image fit gameimg"><img class="gameimg"
+									src="images/pacman.png" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#gclient" onclick="game(8)" class="image fit gameimg"><img class="gameimg"
+									src="images/radius-raid.jpg" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#gclient" onclick="game(9)" class="image fit gameimg"><img class="gameimg"
+									src="images/space-invaders.jpg" alt=""></a>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#gclient" onclick="game(10)" class="image fit gameimg"><img class="gameimg"
+									src="https://via.placeholder.com/350x350px.png?text=Tower Master" alt=""></a>
+						</div>
+						</form>
+			</article>
 
-              document.getElementById('hyperpen').addEventListener('click', () => {
-                loafshow()
-                alert('This server is new and might have bugs')
-                window.location.assign(`https://hpeubyblock.herokuapp.com/prox/?url=${btoa(url.value)}`);
-              })
+			<!-- Games -->
+			<article id="gclient" class="panel">
+				<script>
+					function game(id) {
+						var frame = document.getElementById('frame')
+						if (id == 1) { frame.src = './gfiles/2048/index.html' }
+						if (id == 2) { frame.src = './gfiles/astray/index.html' }
+						if (id == 3) { frame.src = './gfiles/breaklock/index.html' }
+						if (id == 4) { frame.src = './gfiles/cookies/index.html' }
+						if (id == 5) { frame.src = './gfiles/flappybird/index.html' }
+						if (id == 6) { frame.src = './gfiles/hextris/index.html' }
+						if (id == 7) { frame.src = './gfiles/pacman/index.htm' }
+						if (id == 8) { frame.src = './gfiles/radius-raid/index.html' }
+						if (id == 9) { frame.src = './gfiles/spaceinvaders/index.html' }
+						if (id == 10) { frame.src = './gfiles/towermaster/index.html' }
+					}
 
-              //these are the shortcut buttons
-              var wee = (urlData => { // bruhhh idek how to fix this its like something with the html things but it works ig for now its 2am
-                url.value = urlData;
-              });
-            </script>
-            </p>
-          </form>
-        </center>
-        <center>
-          <h3 style="transition: 1s;" id="sinfo">Info:</h3>
-          <h4 style="transition: 1s;" id="c1info">Click the red button at the top to pick your server</h4>
-          <h4 style="transition: 1s;" id="c2info">-PHP (Worst): A decent server that can do most websites while hiding the url and loading quickly</h4>
-          <h4 style="transition: 1s;" id="c3info">-Node (Decent): Works better than PHP but dosent hide the URL and is slow</h4>
-          <h4 style="transition: 1s;" id="c4info">-HyperPen (Best): The best and works with almost anysite loading quickly, hiding the url and
-            its the newest one!</h4>
-          <h3>Server Status:</h3> gone for now
-          <h4>Message from owner: Hey its become to much to update this manualy. Till I have a script for this it will be gone</h4>
-          <div style="color:gray;">
-            <h4>Node Server: (<span style='color: gray'>Online</span>)</h4>
-            <h4>PHP-Proxy: (<span style="color: gray">Online</span>)</h4>
-            <h4>HyperPen-Server: (<span style="color: gray">Online for public testing</span>)<span style="color: gray">
-                New!</span></h4>
-              </div>
-              <h5>This feature has been temporary disabled</h5>
-          <div class="d-box">
-            <h1>Quick Links</h1>
-            <h3><span class="preset" onclick="wee(this.getAttribute('data'))" data="https://youtube.com"><a
-                  href="#">Youtube (Video Streaming) | <cctb>HyperPen-Server</cctb></span></a></span></h3>
-            <h3><span class="preset" onclick="wee(this.getAttribute('data'))" data="https://google.com"><a
-                  href="#">Google (Search Engine) | <cctb>Node</cctb>
-                  <cctb>PHP</cctb>
-                  <cctb>HyperPen-Server</cctb></span></h3></a>
-            <h3><span class="preset" onclick="wee(this.getAttribute('data'))" data="https://startpage.com"><a
-                  href="#">Startpage (Search Engine) | <cctb>Node</cctb>
-                  <cctb>HyperPen-Server</cctb></span></h3></a>
-            <h3><span class="preset" onclick="wee(this.getAttribute('data'))" data="https://www.crazygames.com/"><a
-                  href="#">CrazyGames (Gaming) | <cctb>HyperPen-Server</cctb></span></h3>
-          </div>
-        </center>
-      </div>
-    </div>
-    end of the proxy page-->
+					function stopgame() {
+						document.getElementById('frame').src = './errors/paused.html';
+					}
+				</script>
+				<section>
+					<div class="row">
+						<iframe id="frame" style="width: 100%;height: 100vh;" src="./errors/nogameid.html"></iframe>
+					</div>
+					</form>
+			</article>
 
-  </main>
-  <footer></footer>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<ul class="copyright">
+				<li>&copy; Untitled.</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
-<!--has to be at the end to function-->
-<script src="js/primary.js"></script>
-<div>
-</div>
-</div>
