@@ -417,3 +417,11 @@ VirtualJoystick.prototype._check3D = function()
 	var exports = null != val && val.length && 'none' != val;
 	return exports;
 }
+
+document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    var keyCode = evt.keyCode;
+    if (keyCode >= 37 && keyCode <= 40) {
+        return false;
+    }
+};

@@ -26,3 +26,11 @@ require(['state/Load','state/Start','state/Play','state/End','lib/phaser-no-phys
     _game.state.start('Load');
     
 });
+
+document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    var keyCode = evt.keyCode;
+    if (keyCode >= 37 && keyCode <= 40) {
+        return false;
+    }
+};
