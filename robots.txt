@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /assets
+Disallow: /css
+Disallow: /errors
+Disallow: /geographic
+Disallow: /gfiles
+Disallow: /js
+Disallow: /new
+Disallow: /public-txt
+Disallow: /404.html

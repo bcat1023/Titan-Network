@@ -101,11 +101,3 @@ $.Button.prototype.render = function( i ) {
 	$.ctxmg.fillStyle = 'hsla(0, 0%, 100%, 0.07)';
 	$.ctxmg.fillRect( Math.floor( this.sx ) + 2, Math.floor( this.sy ) + 2, this.width - 4, Math.floor( ( this.height - 4 ) / 2 ) );
 };
-
-document.onkeydown = function(evt) {
-    evt = evt || window.event;
-    var keyCode = evt.keyCode;
-    if (keyCode >= 37 && keyCode <= 40) {
-        return false;
-    }
-};
