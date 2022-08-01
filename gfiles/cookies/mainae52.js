@@ -1880,7 +1880,7 @@ Game.Launch=function()
 			'Remember : cheated cookies taste awful!',
 			'Hey, Orteil here. Cheated cookies taste awful... or do they?',
 		])+' ===]');
-		Game.Load(function(){Game.Init();if (firstLaunch) Game.showLangSelection(true);});
+		Game.Load(function(){Game.Init();});
 		console.log('Bypassed anti-pirate system')
 		console.log('Hacked by thedrowsy.com')
 		//try {Game.Load(Game.Init);}
