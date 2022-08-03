@@ -1,0 +1,2 @@
+#You shouldent be able to see this
+##Welcome to the Offical games.thedrowsy.com repo, you shouldent be here if you dont have explict permission from the creator, unless you work on the project you shouldent see this repo, please close this.
