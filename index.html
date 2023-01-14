@@ -9,6 +9,7 @@
 <head>
 	<title>(0) Inbox</title>
 	<meta charset="utf-8" />
+	<script src="https://kit.fontawesome.com/2c648bd736.js" crossorigin="anonymous"></script>
 	<style>
 		/* Preloader */
 		@keyframes bounce {
@@ -114,9 +115,9 @@
 					<h2>Stuff</h2>
 				</header>
 				<p>
-					Broken: Hextix(kinda), Astray
+					Broken: Hextris(kinda), Astray
 				</p>
-        <p>Last update: Jan 12 12:08</p>
+        <p>Last update: Jan 13 9:08</p>
 				<section>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
@@ -159,6 +160,10 @@
 							<a href="#gclient" onclick="game(10)" class="image fit gameimg"><img class="gameimg"
 									src="https://via.placeholder.com/350x350px.png?text=Tower Master" alt=""></a>
 						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<a href="#gclient" onclick="game(11)" class="image fit gameimg"><img class="gameimg"
+									src="images/tetris.jpg" alt=""></a>
+						</div>
 						</form>
 			</article>
 
@@ -177,6 +182,7 @@
 						if (id == 8) { frame.src = './gfiles/radius-raid/index.html' }
 						if (id == 9) { frame.src = './gfiles/spaceinvaders/index.html' }
 						if (id == 10) { frame.src = './gfiles/towermaster/index.html' }
+						if (id == 11) { frame.src = './gfiles/tetris/index.html' }
 						showbutton()
 					}
 
@@ -186,40 +192,34 @@
 					}
 				</script>
 				<section>
-					<div class="row">
-						<iframe id="frame" style="width: 100%;height: 100vh;" src="./errors/nogameid.html"></iframe>
-					</div>
+						<div id="ho" style="width: 100%;"><iframe id="frame" style="width: 100%;height: 100vh;" src="./errors/nogameid.html"></iframe></div>
+					<script>
+						function showbutton() {
+							document.getElementById('fullscreenclickbtn').style.opacity = '1';
+						}
+		
+						function hidebutton() {
+							document.getElementById('fullscreenclickbtn').style.opacity = '0';
+						}
+		
+						function fullscreen() {
+							var elem = document.getElementById('frame');
+							if (elem.requestFullscreen) {
+								elem.requestFullscreen();
+							} else if (elem.webkitRequestFullscreen) { /* Safari */
+								elem.webkitRequestFullscreen();
+							} else if (elem.msRequestFullscreen) { /* IE11 */
+								elem.msRequestFullscreen();
+							}
+						}
+					</script>
+					<button onclick="document.getElementById('frame').contentWindow.location.reload();"><i class="fa-solid fa-rotate-right" style="color: white;"></i></button>
+					<button id="fullscreenclickbtn" onclick="fullscreen()"><i
+						class="icon-fullscreen"></i></button>
 				</section>
 
 			</article>
 
-		</div>
-
-		<div class="fullscreenbtn">
-			<script>
-				function showbutton() {
-					document.getElementById('fullscreenclickbtn').style.opacity = '1';
-				}
-
-				function hidebutton() {
-					document.getElementById('fullscreenclickbtn').style.opacity = '0';
-				}
-
-				function fullscreen() {
-					var elem = document.getElementById('frame');
-					if (elem.requestFullscreen) {
-						elem.requestFullscreen();
-					} else if (elem.webkitRequestFullscreen) { /* Safari */
-						elem.webkitRequestFullscreen();
-					} else if (elem.msRequestFullscreen) { /* IE11 */
-						elem.msRequestFullscreen();
-					}
-				}
-			</script>
-			<div class="fullbtn">
-				<button style="opacity: 0;transition: all 1s ease 0s;position: fixed;bottom: 0px;right: 0px;transform: scale(1.2);margin: 1vh;" id="fullscreenclickbtn" onclick="fullscreen()"><i
-						class="icon-fullscreen"></i></button>
-			</div>
 		</div>
 
 		<!-- Footer -->
