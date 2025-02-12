@@ -107,7 +107,7 @@ function backstop(toggle) {
       body.style.backgroundImage = ''
       var background = `0`
     }
-  } catch(e) {
+  } catch (e) {
     console.error(e)
   }
 }
@@ -125,4 +125,7 @@ function loadGame(url) {
   backstop(0);
   openPage(event, 'Now Playing');
   loafshow();
+}
+function handleLinkClick(event) {
+  event.preventDefault();
 }
