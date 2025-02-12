@@ -111,7 +111,7 @@
 
   // Load Games Page
   var gamesPage = document.getElementById('gamesContent')
-  fetch(`https://${window.location.hostname}/games.html`)
+  fetch(`${document.baseURI}games.html`)
     .then(response => response.text())
     .then(html => {
       // Write the HTML to the new tab
