@@ -11,12 +11,6 @@ status = 303
 force = false
 
 [[redirects]]
-from = "/apache.conf"
-to = "/index.html"
-status = 401
-force = true
-
-[[redirects]]
 from = "/setup.txt"
 to = "/index.html"
 status = 401
@@ -35,43 +29,17 @@ status = 401
 force = true
 
 [[redirects]]
-from = "/web.config"
-to = "/index.html"
-status = 401
-force = true
-
-[[redirects]]
-from = "/README.md"
-to = "/index.html"
-status = 401
-force = true
-
-[[redirects]]
-from = "/Procfile"
-to = "/index.html"
-status = 401
-force = true
-
-[[redirects]]
 from = "/netlify.toml"
 to = "/index.html"
 status = 401
 force = true
 
-[[redirects]]
-from = "/p/home.html"
-to = "/index.html"
-status = 401
-force = true
+[[headers]]
+  for = "/index.html"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
 
-[[redirects]]
-from = "/p/home.css*"
-to = "/index.html"
-status = 401
-force = true
-
-[[redirects]]
-from = "/p/home.js*"
-to = "/index.html"
-status = 401
-force = true
+[[headers]]
+  for = "/games.html"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"

@@ -1,257 +1,195 @@
-<head>
-  <meta charset="utf-8">
-  <title>Titan Network Arcade</title>
-  <link href="./css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="js/primary.js"></script>
-  <script>
-    document.oncontextmenu = function () {
-      return false;
-    };
+<div class="c-box">
+  <center>
+    <h1><span style="color: white;">Titan Network Arcade</span></h1>
+    <h5>Games last updated at on <a onclick="top.loadGame('/tests/index.html')"><span style="color:green;">2/12/25</span></a></h5>
+    <!-- Disabled for now 
+    <a href="#fl" onclick="handleLinkClick()" class="button">Flash Games ▼</a>
+    <a href="#ac" onclick="handleLinkClick()" class="button">Arcade Games ▼</a>
+    <a href="#wg" onclick="handleLinkClick()" class="button">Web Games ▼</a>
+    <div style="height: 20px; overflow: hidden;"></div>-->
+</div>
 
-    //document.getElementsByTagName()
-  </script>
-</head>
+<div class="d-box">
+  <center>
+    <h2>Now working again:</h2>
+    <a onclick="top.loadGame('/gfiles/hextris/index.html')"><span style="color: white;">Hextris</span></a>
 
+    <div style="height: 10px; overflow: hidden;"></div>
+    <h2 id="fl">Flash Games (Emulated):</h2>
+    <a onclick="top.loadGame('/ffiles/tiq/index.html')">
+      <span style="color: white;">The Impossible Quiz</span></a>
+    <div style="height: 10px; overflow: hidden;"></div>
+    <a onclick="top.loadGame('/ffiles/p/b/index.html')"><span style="color: white;">Papa's Bakeria<span
+          style="color:pink;"> (New)</span></span></a>
+    <div style="height: 10px; overflow: hidden;"></div>
+    <a onclick="top.loadGame('/ffiles/p/hd/index.html')">
+      <span style="color: white;">Papa's Hot Doggeria
 
+      </span></a>
+    <div style="height: 10px; overflow: hidden;"></div>
+    <a onclick="top.loadGame('/ffiles/p/d/index.html')">
+      <span style="color: white;">Papa's Donuteria </span></a>
+    <div style="height: 10px; overflow: hidden;"></div>
+    <a onclick="top.loadGame('/ffiles/p/s/index.html')">
+      <span style="color: white;">Papa's Scooperia
 
-<body style="background-color: transparent;">
-
-  <div class="c-box">
-    <center>
-      <h1><span style="color: white;">Titan Network Arcade</span></h1>
-      <h5>Games last updated at on <a href="/tests/index.html"><span style="color:green;">1/15/25</span></a></h5>
-
-      <center>
-        <h5>Double click <span style="color:red">Games</span> to reload</h5>
-        
-      </center>
-      
-      <a href="#fl" class="button">Flash Games</a>
-      <a href="#ac" class="button">Arcade Games</a>
-      <a href="#wg" class="button">Web Games</a>
-      <div style="height: 20px; overflow: hidden;"></div>
-    </div>
-    
-    <div class="d-box">
-    <center>
-      <h2>New to Titan Network:</h2>
-      <a onclick="top.loafshow();backstop(0)" href="/gfiles/slope/y8-studio/unity_webgl/bitlaslt/slope_v_1_2_5/index.html">
-        <span style="color: white;">Slope <span style="color:pink;">
-          (New)</span></span></a>
+      </span></a>
+    <div style="height: 10px; overflow: hidden;"></div>
+    <a onclick="top.loadGame('/ffiles/p/c/index.html')">
+      <span style="color: white;">Papa's Cupcakeira <span style="color:red;">(Broken)</span>
+      </span></a>
+    <div>
       <div style="height: 10px; overflow: hidden;"></div>
-      <h2 id="fl">Flash Games:</h2>
-      <a onclick="top.loafshow();backstop(0)" href="/ffiles/tiq/">
-        <span style="color: white;">The Impossible Quiz <span style="color: orange;">
-            (Flash
-            Emu)</span><span style="color:pink;">
-               (New)</span></span></a>
-      <div style="height: 10px; overflow: hidden;"></div>
-      <a onclick="top.loafshow();backstop(0)" href="/ffiles/p/hd/index.html">
-        <span style="color: white;">Papa's Hot Doggeria <span style="color: orange;">
-            (Flash
-            Emu)</span></span></a>
-      <div style="height: 10px; overflow: hidden;"></div>
-      <a onclick="top.loafshow();backstop(0)" href="/ffiles/p/d/index.html">
-        <span style="color: white;">Papa's Donuteria <span style="color: orange;">
-            (Flash
-            Emu)</span></span></a>
-      <div style="height: 10px; overflow: hidden;"></div>
-      <a onclick="top.loafshow();backstop(0)" href="/ffiles/p/s/index.html">
-        <span style="color: white;">Papa's Scooperia <span style="color: orange;">
-            (Flash
-            Emu)</span></span></a>
-      <div style="height: 10px; overflow: hidden;"></div>
-      <a onclick="top.loafshow();backstop(0)" href="/ffiles/p/c/index.html">
-        <span style="color: white;">Papa's Cupcakeira <span style="color: orange;"> (Flash
-            Emu)</span></span></a>
+      <a onclick="top.loadGame('/ffiles/p/pap/index.html')">
+        <span style="color: white;">Papa's Pastaria
+        </span></a>
       <div>
         <div style="height: 10px; overflow: hidden;"></div>
-        <a onclick="top.loafshow();backstop(0)" href="/ffiles/p/pap/index.html">
-          <span style="color: white;">Papa's Pastaria <span style="color: orange;"> (Flash
-              Emu)</span></span></a>
+
+
+        <a onclick="top.loadGame('/ffiles/p/w/index.html')">
+          <span style="color: white;">Papa's Wingeria
+          </span></a>
         <div>
           <div style="height: 10px; overflow: hidden;"></div>
-
-
-          <a onclick="top.loafshow();backstop(0)" href="/ffiles/p/w/index.html">
-            <span style="color: white;">Papa's Wingeria <span style="color: orange;"> (Flash
-                Emu)</span></span></a>
+          <a onclick="top.loadGame('/ffiles/p/pa/index.html')">
+            <span style="color: white;">Papa's Pancakeria
+            </span></a>
           <div>
             <div style="height: 10px; overflow: hidden;"></div>
-            <a onclick="top.loafshow();backstop(0)" href="/ffiles/p/pa/index.html">
-              <span style="color: white;">Papa's Pancakeria <span style="color: orange;"> (Flash
-                  Emu)</span></span></a>
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div> <a onclick="top.loafshow();backstop(0)" href="/ffiles/p/p/index.html">
-              <span style="color: white;">Papa's Pizzeria V2 <span style="color: orange;">
-                  (Flash
-                  Emu)</span></span></a>
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="/ffiles/p/f/index.html">
-              <span style="color: white;">Papa's Freezeria <span style="color: orange;">
-                  (Flash
-                  Emu)</span></span></a>
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
+          </div> <a onclick="top.loadGame('/ffiles/p/p/index.html')">
+            <span style="color: white;">Papa's Pizzeria V2
 
-
-
-            <a onclick="top.loafshow();backstop(0)" href="/ffiles/btd4/index.html">
-              <span style="color: white;">Bloons TD 5 <span style="color:red;">(Broken)</span><span
-                  style="color: orange;">
-                  (Flash
-                  Emu)</span></span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <h2 id="ac">Arcade Games:</h2>
-            <a onclick="top.loafshow();backstop(0)" href="/afiles/pmc/fit.html">
-              <span style="color: white;">Club Pacman <span style="color:green;">(Arcade)</span></a>
+            </span></a>
+          <div>
             <div style="height: 10px; overflow: hidden;"></div>
-
-            <a onclick="top.loafshow();backstop(0)" href="/afiles/sm64/fit.html">
-              <span style="color: white;">Super Mario 64<span style="color:green;">
-                  (Arcade)</span></span></a>
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-
-            <a onclick="top.loafshow();backstop(0)" href="afiles/si/fit.html">
-              <span style="color: white;">Space Invaders & Qix Combo <span
-                  style="color:green;">(Arcade)</span></span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="afiles/sf2a/fit.html">
-              <span style="color: white;">Street Fighter 2 Alpha <span style="color:green;">(Arcade)</span></span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-
-            <h2 id="wg">Web Games:</h2>
-            <a onclick="top.loafshow();backstop(0)" href="/gfiles/slope/y8-studio/unity_webgl/bitlaslt/slope_v_1_2_5/index.html">
-              <span style="color: white;">Slope <span style="color:pink;">
-                (New)</span></span></a>
-            <div style="height: 10px; overflow: hidden;"></div>
-
-            <a onclick="top.loafshow();backstop(0)" href="/gfiles/8-ball-pool/index.html">
-              <span style="color: white;">8 Ball Pool <span style="color:blue;"></span></span></a>
-              <div style="height: 10px; overflow: hidden;"></div>
-
-            <a onclick="top.loafshow();backstop(0)" href="/gfiles/paper-io-2/index.html">
-              <span style="color: white;">Paper.io 2 <span style="color:blue;"></span></span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            <a onclick="top.loafshow();backstop(0)" href="/gfiles/retrobowl-1/new/index.html">
-              <span style="color: white;">RetroBowl <span style="color:blue;"></span></span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)"
-              href="https://v6p9d9t4.ssl.hwcdn.net/html/1792221/ItchIO/index.html">
-              <span style="color: white;">Drift Hunters <span style="color:blue;"></span><span style="color:red;">
-                  (External)</span></span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/dw/index.html">
-              <span style="color: white;">Dope Wars <span style="color:blue;"></span></span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/tetrissingle/index.html">
-              <span style="color: white;">TetrisJS <span style="color:blue;"></span></span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/tetris/index.html">
-              <span style="color: white;">Tetris</span></a>
-
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/2048/index.html">
-              <span style="color: white;">2048</span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/astray/index.html">
-              <span style="color: white;">Astray</span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/breaklock/index.html">
-              <span style="color: white;">Breaklock</span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/nerd.html">
-              <span style="color: white;">Breakout</span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/cookies/index.html">
-              <span style="color: white;">Cookie Clicker</span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/flappybird/index.html">
-              <span style="color: white;">Flappy Bird</span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/hextris/index2.html">
-              <span style="color: white;">Hextris <span style="color:orange;">(Broken)</span></span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/pacman/index.htm">
-              <span style="color: white;">Pac-Man</span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/radius-raid/min.html">
-              <span style="color: white;">Radius Raid</span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/spaceinvaders/index.html">
-              <span style="color: white;">Space Invaders</span></a>
-
-            <div>
-              <div style="height: 10px; overflow: hidden;"></div>
-            </div>
-            <a onclick="top.loafshow();backstop(0)" href="gfiles/towermaster/index.html">
-              <span style="color: white;">Towermaster <span style="color:yellow;">(Pending
-                  Translation)</span></span></a>
           </div>
-          <h5>External indicates that the game is offsite and not yet on the Titan Network CDN and is not maintained or updated by Titan Network and might be blocked or not work</h5>
-</body>
+          <a onclick="top.loadGame('/ffiles/p/f/index.html')">
+            <span style="color: white;">Papa's Freezeria
+
+            </span></a>
+          <div>
+            <div style="height: 10px; overflow: hidden;"></div>
+          </div>
+
+
+
+          <a onclick="top.loadGame('/ffiles/btd4/index.html')">
+            <span style="color: white;">Bloons TD 5 <span style="color:red;">(Broken)</span><span
+                style="color: orange;">
+
+              </span></a>
+
+          <div>
+            <div style="height: 10px; overflow: hidden;"></div>
+          </div>
+          <h2 id="ac">Arcade Games:</h2>
+          <a onclick="top.loadGame('/afiles/pmc/fit.html')">
+            <span style="color: white;">Club Pacman <span style="color:green;">(Arcade)</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/afiles/sm64/fit.html')">
+            <span style="color: white;">Super Mario 64<span style="color:green;">
+                (Arcade)</span></span></a>
+          <div>
+            <div style="height: 10px; overflow: hidden;"></div>
+          </div>
+
+          <a onclick="top.loadGame('/afiles/si/fit.html')">
+            <span style="color: white;">Space Invaders & Qix Combo <span style="color:green;">(Arcade)</span></span></a>
+
+          <div>
+            <div style="height: 10px; overflow: hidden;"></div>
+          </div>
+          <a onclick="top.loadGame('/afiles/sf2a/fit.html')">
+            <span style="color: white;">Street Fighter 2 Alpha <span style="color:green;">(Arcade)</span></span></a>
+
+          <div>
+            <div style="height: 10px; overflow: hidden;"></div>
+          </div>
+
+          <div>
+            <div style="height: 10px; overflow: hidden;"></div>
+          </div>
+
+          <h2 id="wg">Web Games:</h2>
+          <a onclick="top.loadGame('/gfiles/slope/index.html')">
+            <span style="color: white;">Slope <span style="color:pink;">(New)</span></span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/8-ball-pool/index.html')">
+            <span style="color: white;">8 Ball Pool <span style="color:blue;"></span></span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/paper-io-2/index.html')">
+            <span style="color: white;">Paper.io 2 <span style="color:blue;"></span></span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/retrobowl-1/new/index.html')">
+            <span style="color: white;">RetroBowl <span style="color:blue;"></span></span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('//v6p9d9t4.ssl.hwcdn.net/html/1792221/ItchIO/index.html')">
+            <span style="color: white;">Drift Hunters <span style="color:orange;">(Broken)</span></span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/dw/index.html')">
+            <span style="color: white;">Dope Wars <span style="color:blue;"></span></span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/tetrissingle/index.html')">
+            <span style="color: white;">TetrisJS <span style="color:blue;"></span></span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/tetris/index.html')">
+            <span style="color: white;">Tetris</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/2048/index.html')">
+            <span style="color: white;">2048</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/astray/index.html')">
+            <span style="color: white;">Astray</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/breaklock/index.html')">
+            <span style="color: white;">Breaklock</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/nerd.html')">
+            <span style="color: white;">Breakout</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/cookies/index.html')">
+            <span style="color: white;">Cookie Clicker</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/flappybird/index.html')">
+            <span style="color: white;">Flappy Bird</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/hextris/index.html')">
+            <span style="color: white;">Hextris</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/pacman/index.htm')">
+            <span style="color: white;">Pac-Man</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/radius-raid/min.html')">
+            <span style="color: white;">Radius Raid</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/spaceinvaders/index.html')">
+            <span style="color: white;">Space Invaders</span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/towermaster/index.html')">
+            <span style="color: white;">Towermaster <span style="color:yellow;">(Pending
+                Translation)</span></span></a>
+        </div>
+      </div>
+    </div>
+  </center>
+</div>

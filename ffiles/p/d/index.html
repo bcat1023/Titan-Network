@@ -1,30 +1,36 @@
-<html>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    </head>
-    <style>
-        ruffle-player {
-            width: 100%;
-            height: 100%
-        }
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-    </style>
-    <body>
-        <div id="container"></div>
-        <script>
-            window.RufflePlayer = window.RufflePlayer || {};
-            window.addEventListener("load", (event) => {
-                const ruffle = window.RufflePlayer.newest();
-                const player = ruffle.createPlayer();
-                const container = document.getElementById("container");
-                container.appendChild(player);
-                player.load("papasdonuteria.swf");
-            });
-        </script>
-        <script src="./ruffle.js"></script>
-    </body>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./icon32.png" sizes="32x32">
+    <link rel="icon" href="./icon180.png" sizes="180x180">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ruffle Player</title>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <link rel="stylesheet" crossorigin href="https://ruffle.rs/demo/assets/index-ZTuZXFCc.css">
+</head>
+
+<body>
+
+    <div id="root"></div>
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            "letterbox": "on",
+            "allowScriptAccess": "false",
+            "quality": "medium",
+        };
+        window.addEventListener("load", (event) => {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            const container = document.getElementById("root");
+            container.appendChild(player);
+            player.style.height = "100%"; 
+            player.style.width = "100%"; 
+            player.ruffle().load("./papasdonuteria.swf");
+        });
+    </script>
+</body>
+
 </html>
