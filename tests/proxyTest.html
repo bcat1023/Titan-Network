@@ -1,0 +1,48 @@
+<!-- ↓ links ↓ -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet" />
+<!-- ↑ links ↑ -->
+
+<button>Launch Titan</button>
+V4, AltConsole Enabled
+<script>
+    document.querySelector("button").onclick = function () {
+        // Open a new tab with about:blank
+        const newTab = window.open('about:blank', '_blank');
+
+        // Wait for the about:blank page to be ready
+        newTab.document.open();
+
+        // Fetch the index.html from the external site (replace with your desired URL)
+        fetch('https://titan-cdn.nookalley.com')
+            .then(response => response.text())
+            .then(html => {
+                // Write the HTML to the new tab
+                var inject = '';
+                newTab.document.write(inject + html);
+
+                // Now execute the JavaScript code from the fetched page
+                // Create a script element
+                const script = newTab.document.createElement('script');
+                script.textContent = `
+      ${html.match(/<script[^>]*>([\s\S]*?)<\/script>/g).map(scriptTag => {
+                    const scriptContent = scriptTag.replace(/<\/?script>/g, '').trim();
+                    return scriptContent;
+                }).join("\n")}
+    `;
+
+                // Append the script to the new tab's document to run the code
+                newTab.document.body.appendChild(script);
+
+                // Close the document to finalize the page setup
+                newTab.document.close();
+            })
+            .catch(err => alert('Error loading:', err));
+    };
+
+</script>
+<script src="https://cdn.jsdelivr.net/gh/red-stone-network/altconsole@main/altconsole.js"></script>
+
+
+<a target="_blank" href="about:blank"></a>

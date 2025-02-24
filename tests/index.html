@@ -5,13 +5,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="/js/primary.js"></script>
-    <script>
-      document.oncontextmenu = function () {
-        return false;
-      };
-  
-      //document.getElementsByTagName()
-    </script>
   </head>
   
   
@@ -30,16 +23,19 @@
   
     <div class="d-box">
       <center>
-        <a onclick="top.loafshow();backstop(0)" href="/p/home.html">
+        <a onclick="top.loadGame('/p/home.html')">
           <span style="color: white;">Surf Freely Beta
         <div style="height: 10px; overflow: hidden;"></div>
-        <a onclick="top.loafshow();backstop(0)" href="/tests/console.html">
+        <a onclick="top.loadGame('/tests/console.html')">
           <span style="color: white;">Console_
         <div style="height: 10px; overflow: hidden;"></div>        
-        <a onclick="top.loafshow();backstop(0)" href="/tests/bars.html">
+        <a onclick="top.loadGame('/tests/bars.html')">
           <span style="color: white;">Test Bars
         <div style="height: 10px; overflow: hidden;"></div>
-        <a onclick="top.loafshow();backstop(0)" href="/tests/browser-identify.html">
+        <a href="/test/proxyTest" target="_blank">
+          <span style="color: white;">Text Proxy/Loader
+        <div style="height: 10px; overflow: hidden;"></div>
+        <a onclick="top.loadGame('/test/browser-identify.html')">
           <span style="color: white;">Identify Browser
         <div style="height: 10px; overflow: hidden;"></div>
      </div>

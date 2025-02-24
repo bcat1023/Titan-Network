@@ -1,15 +1,11 @@
-# Titan Network
+# Titan Network | 3.0.0
+This is Release 3 of Titan Network
 
- Tos Coming soon
+# Changes in V3
+V3 is the most recent major upgrade for Titan Network, it includes a change of licence, smoother code, simplifyed structure and the removal of old outdated or unused code.
 
- Privacy Policy Coming soon
+# Licence
+Titan Network v3 runs under a modified GNU AGPLv3 licence, all releases prior to v3 ran under a standard MIT License
 
-# History
-## 2020
- Titan Network goes online with the original classic ui
-## 2021
- Titan Network goes offline and becomes Drowsy Games featuring a new buggy ui
-## 2023
- Drowsy Games reverts to Titan Network ui and Changes back to the Titan Network name
-#
-## Base 05/11/2020
+# Contributions
+All contributions are welcomed in this repo, send them in and ill review them. 
