@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <identifier>arcade_sfa2</identifier>
+  <collection>internetarcade</collection>
+  <collection>stream_only</collection>
+  <creator>Capcom</creator>
+  <date>1996&#13;</date>
+  <description>Street Fighter Alpha 2 (Euro 960229) by Capcom (1996)&lt;br /&gt;&lt;br /&gt;&lt;div class="mobygames_description"&gt;&lt;p&gt;&lt;b&gt;Released&lt;/b&gt;&lt;br /&gt;&lt;a href="https://archive.org/search.php?query=mobygames_released%3A(Feb%2027,%201996)" rel="nofollow"&gt;Feb 27, 1996&lt;/a&gt;&lt;br /&gt;&lt;b&gt;Also For&lt;/b&gt;&lt;br /&gt;&lt;a href="https://archive.org/search.php?query=mobygames_also_for%3A(New%20Nintendo%203DS,%20PlayStation,%20PlayStation%203,%20PSP,%20PS%20Vita,%20SEGA%20Saturn,%20SNES,%20Wii,%20Wii%20U,%20Windows)" rel="nofollow"&gt;New Nintendo 3DS, PlayStation, PlayStation 3, PSP, PS Vita, SEGA Saturn, SNES, Wii, Wii U, Windows&lt;/a&gt;&lt;br /&gt;&lt;b&gt;Developed by&lt;/b&gt;&lt;br /&gt;&lt;a href="https://archive.org/search.php?query=mobygames_developed_by%3A(Capcom%20Co.,%20Ltd.)" rel="nofollow"&gt;Capcom Co., Ltd.&lt;/a&gt;&lt;br /&gt;&lt;b&gt;Published by&lt;/b&gt;&lt;br /&gt;&lt;a href="https://archive.org/search.php?query=mobygames_published_by%3A(Capcom%20Co.,%20Ltd.)" rel="nofollow"&gt;Capcom Co., Ltd.&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;br /&gt;&lt;a href="https://archive.org/search.php?query=mobygames_interface%3A(Direct%20control)" rel="nofollow"&gt;Direct control&lt;/a&gt;&lt;br /&gt;&lt;b&gt;Perspective&lt;/b&gt;&lt;br /&gt;&lt;a href="https://archive.org/search.php?query=mobygames_perspective%3A(Side%20view)" rel="nofollow"&gt;Side view&lt;/a&gt;&lt;br /&gt;&lt;b&gt;Visual&lt;/b&gt;&lt;br /&gt;&lt;a href="https://archive.org/search.php?query=mobygames_visual%3A(2D%20scrolling)" rel="nofollow"&gt;2D scrolling&lt;/a&gt;&lt;br /&gt;&lt;b&gt;Gameplay&lt;/b&gt;&lt;br /&gt;&lt;a href="https://archive.org/search.php?query=mobygames_gameplay%3A(Fighting)" rel="nofollow"&gt;Fighting&lt;/a&gt;&lt;br /&gt;&lt;b&gt;Art&lt;/b&gt;&lt;br /&gt;&lt;a href="https://archive.org/search.php?query=mobygames_art%3A(Anime%20%20manga)" rel="nofollow"&gt;Anime / manga&lt;/a&gt;&lt;br /&gt;&lt;b&gt;Genre&lt;/b&gt;&lt;br /&gt;&lt;a href="https://archive.org/search.php?query=mobygames_genre%3A(Action)" rel="nofollow"&gt;Action&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Another Street Fighter sequel (this time for Street Fighter Alpha) adds even more to the classic fighting series.&lt;br /&gt;&lt;br /&gt;New characters in this version include Gen (a wise kung-fu master), Rolento (who you may remember from another Capcom classic, Final Fight) and Sakura, a young school girl who follows her hero Ryu so close, she has the same type of moves. Dhalsim and Zangief also return to the fight with some news moves.&lt;br /&gt;&lt;br /&gt;The other major difference is the loss of chain-combos and the gain of a custom combo system. Once you reach the required level (which is 1 at the least) you can execute a custom combo by combining any of the buttons (which there are 6 in total) or any of the special attacks (fireballs, etc.)&lt;/p&gt;&lt;p&gt;From Mobygames.com. &lt;a href="https://www.mobygames.com/game/arcade/street-fighter-alpha-2" rel="nofollow"&gt;Original Entry&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class="end_mobygames_description"&gt;&lt;/div&gt;&lt;br /&gt;&lt;div&gt;&lt;/div&gt;</description>
+  <emulator>sfa2</emulator>
+  <emulator_ext>zip</emulator_ext>
+  <mediatype>software</mediatype>
+  <scanner>Internet Archive Python library 1.7.4</scanner>
+  <title>Street Fighter Alpha 2 (Euro 960229)</title>
+  <publicdate>2018-04-10 15:27:54</publicdate>
+  <uploader>sketch@cow.net</uploader>
+  <addeddate>2018-04-10 15:27:54</addeddate>
+  <mobygames>https://www.mobygames.com/game/arcade/street-fighter-alpha-2&#13;</mobygames>
+  <joy_buttons>6</joy_buttons>
+  <coin_buttons>2</coin_buttons>
+  <players>2</players>
+  <joy>8-way</joy>
+  <service_buttons>1&#13;</service_buttons>
+  <wikipedia>https://en.wikipedia.org/wiki/Street_Fighter_Alpha_2&#13;</wikipedia>
+  <manual>https://archive.org/details/arcademanual_street-fighter-alpha-2</manual>
+  <arcade_museum>https://www.arcade-museum.com/game_detail.php?game_id=9804</arcade_museum>
+  <backup_location>ia906702_33</backup_location>
+  <access-restricted-item>true</access-restricted-item>
+  <colleciton>stream_only</colleciton>
+  <mobygames_also_for>New Nintendo 3DS, PlayStation, PlayStation 3, PSP, PS Vita, SEGA Saturn, SNES, Wii, Wii U, Windows</mobygames_also_for>
+  <mobygames_released>Feb 27, 1996</mobygames_released>
+  <mobygames_published_by>Capcom Co., Ltd.</mobygames_published_by>
+  <mobygames_art>Anime / manga</mobygames_art>
+  <mobygames_perspective>Side view</mobygames_perspective>
+  <mobygames_gameplay>Fighting</mobygames_gameplay>
+  <mobygames_genre>Action</mobygames_genre>
+  <mobygames_developed_by>Capcom Co., Ltd.</mobygames_developed_by>
+  <mobygames_visual>2D scrolling</mobygames_visual>
+  <mobygames_interface>Direct control</mobygames_interface>
+  <adb>http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=sfa2</adb>
+  <collection>emulation</collection>
+</metadata>

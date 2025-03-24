@@ -53,6 +53,9 @@ function openPage(evt, tab) {
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(tab).style.display = "block";
   //evt.currentTarget.className += " active";
+  if (tab == "Now Playing") {
+    document.getElementById("player").focus();
+  }
   loafhide()
 }
 
@@ -129,3 +132,9 @@ function loadGame(url) {
 function handleLinkClick(event) {
   event.preventDefault();
 }
+
+window.addEventListener("message", function (event) {
+  if (event.data === "focusIframe") {
+      document.getElementById("player").focus();
+  }
+});

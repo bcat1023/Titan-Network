@@ -1,0 +1,22 @@
+{
+  "originalUrl": "https://tunnelrush.app/iframe/index.html",
+  "title": "Tunnel Rush",
+  "archiveTime": "2025-03-22T22:54:05.520Z",
+  "indexFilename": "index.html",
+  "resources": {
+    "stylesheet_0.css": "https://tunnelrush.app/iframe/style.css",
+    "scripts/12": "blob:https://tunnelrush.app/e3829049-4c4e-42df-b9a2-9c1768de69d0",
+    "scripts/11": "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+    "scripts/10.js": "https://tunnelrush.app/iframe/js/UnityLoader.js?v=2",
+    "scripts/9.html": "https://tunnelrush.app/iframe/index.html",
+    "images/8.ico": "https://tunnelrush.app/favicon.ico",
+    "images/3.png": "https://tunnelrush.app/iframe/progressLogo.Dark.png",
+    "images/0.png": "https://tunnelrush.app/iframe/progressLogo.Light.png",
+    "images/5.png": "https://tunnelrush.app/iframe/progressFull.Dark.png",
+    "images/7.png": "https://tunnelrush.app/iframe/fullscreen.png",
+    "images/1.png": "https://tunnelrush.app/iframe/progressEmpty.Light.png",
+    "images/4.png": "https://tunnelrush.app/iframe/progressEmpty.Dark.png",
+    "images/6.png": "https://tunnelrush.app/iframe/webgl-logo.png",
+    "images/2.png": "https://tunnelrush.app/iframe/progressFull.Light.png"
+  }
+}

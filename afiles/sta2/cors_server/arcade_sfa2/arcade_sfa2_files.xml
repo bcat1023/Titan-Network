@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="00_marquee_sfa2.png" source="original">
+    <mtime>1524023279</mtime>
+    <size>1475903</size>
+    <md5>03c3ff719006b79522bfb95a18289b3d</md5>
+    <crc32>d202a70c</crc32>
+    <sha1>8a103fba5f3838b74b98e86460ecda5ba0088230</sha1>
+    <format>PNG</format>
+  </file>
+  <file name="00_marquee_sfa2_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>00_marquee_sfa2.png</original>
+    <mtime>1524023381</mtime>
+    <size>5578</size>
+    <md5>5e9c0872f3c792d23676c75c0d0cc2a8</md5>
+    <crc32>a9257156</crc32>
+    <sha1>f437971668c22524752e905a5e48057b35c3fb29</sha1>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1619766898</mtime>
+    <size>15517</size>
+    <format>JPEG Thumb</format>
+    <rotation>0</rotation>
+    <md5>6ba0899a5df9f2b513fe8d1d48e3b929</md5>
+    <crc32>d2780c3f</crc32>
+    <sha1>0a9327225734d0445e46c680f87ad78d4441fd11</sha1>
+  </file>
+  <file name="arcade_sfa2_archive.torrent" source="metadata">
+    <btih>9ec64db1a22dbd728fb39c00e108361db261389f</btih>
+    <mtime>1579878585</mtime>
+    <size>3347</size>
+    <md5>a133615eb5c36eabbc1a29cdb2356a29</md5>
+    <crc32>cd315131</crc32>
+    <sha1>3610ad79880fd52e6720d841fe58a7b6c185f143</sha1>
+    <format>Archive BitTorrent</format>
+    <private>true</private>
+  </file>
+  <file name="arcade_sfa2_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>02e4083d9565cbeb63bc780a8e620286</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="arcade_sfa2_meta.sqlite" source="original">
+    <mtime>1557977764</mtime>
+    <size>12288</size>
+    <format>Metadata</format>
+    <md5>02b90111fccdb77934c22b99d08e25a9</md5>
+    <crc32>a6e38a59</crc32>
+    <sha1>f38e07939c98842d549302e63d0a1cae383fc7e6</sha1>
+  </file>
+  <file name="arcade_sfa2_meta.xml" source="original">
+    <mtime>1650861542</mtime>
+    <size>5243</size>
+    <format>Metadata</format>
+    <md5>538a56328d591a0602cc95473731f152</md5>
+    <crc32>745ce567</crc32>
+    <sha1>43c26737be7af724413444b3d2e266f60bd37683</sha1>
+  </file>
+  <file name="arcade_sfa2_reviews.xml" source="original">
+    <mtime>1732284299</mtime>
+    <size>6938</size>
+    <md5>a1c14a331a685c67825bce962df52869</md5>
+    <crc32>7f801b9e</crc32>
+    <sha1>d42a7cce5a61b99c2feab284b1a4332ae28d979f</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="qsound_hle.zip" source="original">
+    <mtime>1557977761</mtime>
+    <size>2676</size>
+    <md5>758388893761ea3ff0d820f60344a38e</md5>
+    <crc32>75133cf1</crc32>
+    <sha1>b875be47c087d7a0d484d29232a23fd0bae736e6</sha1>
+    <format>ZIP</format>
+    <filecount>1</filecount>
+  </file>
+  <file name="sfa2.zip" source="original">
+    <mtime>1557977715</mtime>
+    <size>21966120</size>
+    <format>ZIP</format>
+    <md5>6e5138587d47d543d2bbbfdf7d9bf038</md5>
+    <crc32>eff7a9b8</crc32>
+    <sha1>35b4f03fe766eca57315d7fc0a2aa1538d6759e3</sha1>
+    <filecount>62</filecount>
+  </file>
+  <file name="sfa2_screenshot.png" source="original">
+    <mtime>1524023283</mtime>
+    <size>27507</size>
+    <md5>8c6ee2c901efb08953e8536c54e751e1</md5>
+    <crc32>07973ecd</crc32>
+    <sha1>20961801d981c59f31cd58481f45853629d0bea0</sha1>
+    <format>Emulator Screenshot</format>
+  </file>
+</files>

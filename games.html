@@ -1,7 +1,8 @@
 <div class="c-box">
   <center>
     <h1><span style="color: white;">Titan Network Arcade</span></h1>
-    <h5>Games last updated at on <a onclick="top.loadGame('/tests/index.html')"><span style="color:green;">2/12/25</span></a></h5>
+    <h5>Games last updated at on <a onclick="top.loadGame('/tests/index.html')"><span
+          style="color:green;">2/12/25</span></a></h5>
     <!-- Disabled for now 
     <a href="#fl" onclick="handleLinkClick()" class="button">Flash Games ▼</a>
     <a href="#ac" onclick="handleLinkClick()" class="button">Arcade Games ▼</a>
@@ -11,16 +12,36 @@
 
 <div class="d-box">
   <center>
-    <h2>Now working again:</h2>
-    <a onclick="top.loadGame('/gfiles/hextris/index.html')"><span style="color: white;">Hextris</span></a>
+    <h2>In the spotlight:</h2>
+    <a onclick="top.loadGame('/gfiles/gsol/index.html')">
+    <span style="color: white;">GSolitare <span style="color:pink;">(New)</span></span></a>
+    <div style="height: 10px; overflow: hidden;"></div>
+
+    <a onclick="top.loadGame('/gfiles/tunnel-rush/index.html')">
+      <span style="color: white;">Tunnel Rush <span style="color:pink;">(New)</span></span></a>
+
+    <div>
+      <div style="height: 10px; overflow: hidden;"></div>
+    </div>
+
+    <a onclick="top.loadGame('/afiles/sta3/index.html#warn')">
+      <span style="color: white;">Street Fighter 3 Alpha <span style="color:pink;">(New)</span> <span
+          style="color:green;">(Arcade)</span></span></a>
+
+    <div>
+      <div style="height: 10px; overflow: hidden;"></div>
+    </div>
+
+    <a onclick="top.loadGame('/afiles/sta2/index.html#warn')">
+      <span style="color: white;">Street Fighter 2 Alpha <span style="color:purple;">(Fixed)</span> <span
+          style="color:green;">(Arcade)</span></span></a>
 
     <div style="height: 10px; overflow: hidden;"></div>
     <h2 id="fl">Flash Games (Emulated):</h2>
     <a onclick="top.loadGame('/ffiles/tiq/index.html')">
       <span style="color: white;">The Impossible Quiz</span></a>
     <div style="height: 10px; overflow: hidden;"></div>
-    <a onclick="top.loadGame('/ffiles/p/b/index.html')"><span style="color: white;">Papa's Bakeria<span
-          style="color:pink;"> (New)</span></span></a>
+    <a onclick="top.loadGame('/ffiles/p/b/index.html')"><span style="color: white;">Papa's Bakeria</span></a>
     <div style="height: 10px; overflow: hidden;"></div>
     <a onclick="top.loadGame('/ffiles/p/hd/index.html')">
       <span style="color: white;">Papa's Hot Doggeria
@@ -36,7 +57,7 @@
       </span></a>
     <div style="height: 10px; overflow: hidden;"></div>
     <a onclick="top.loadGame('/ffiles/p/c/index.html')">
-      <span style="color: white;">Papa's Cupcakeira <span style="color:red;">(Broken)</span>
+      <span style="color: white;">Papa's Cupcakeira <span style="color:purple;">(Fixed)</span>
       </span></a>
     <div>
       <div style="height: 10px; overflow: hidden;"></div>
@@ -85,24 +106,36 @@
           </div>
           <h2 id="ac">Arcade Games:</h2>
           <a onclick="top.loadGame('/afiles/pmc/fit.html')">
-            <span style="color: white;">Club Pacman <span style="color:green;">(Arcade)</span></a>
+            <span style="color: white;">Club Pacman <span style="color:red;"> (Broken)</span> <span
+                style="color:green;">(Arcade)</span></a>
           <div style="height: 10px; overflow: hidden;"></div>
 
           <a onclick="top.loadGame('/afiles/sm64/fit.html')">
-            <span style="color: white;">Super Mario 64<span style="color:green;">
+            <span style="color: white;">Super Mario 64 <span style="color:green;">
                 (Arcade)</span></span></a>
           <div>
             <div style="height: 10px; overflow: hidden;"></div>
           </div>
 
           <a onclick="top.loadGame('/afiles/si/fit.html')">
-            <span style="color: white;">Space Invaders & Qix Combo <span style="color:green;">(Arcade)</span></span></a>
+            <span style="color: white;">Space Invaders & Qix Combo <span style="color:red;"> (Broken)</span> <span
+                style="color:green;">(Arcade)</span></span></a>
 
           <div>
             <div style="height: 10px; overflow: hidden;"></div>
           </div>
-          <a onclick="top.loadGame('/afiles/sf2a/fit.html')">
-            <span style="color: white;">Street Fighter 2 Alpha <span style="color:green;">(Arcade)</span></span></a>
+
+          <a onclick="top.loadGame('/afiles/sta3/index.html#warn')">
+            <span style="color: white;">Street Fighter 3 Alpha <span style="color:pink;">(New)</span> <span
+                style="color:green;">(Arcade)</span></span></a>
+
+          <div>
+            <div style="height: 10px; overflow: hidden;"></div>
+          </div>
+
+          <a onclick="top.loadGame('/afiles/sta2/index.html#warn')">
+            <span style="color: white;">Street Fighter 2 Alpha <span style="color:purple;">(Fixed)</span> <span
+                style="color:green;">(Arcade)</span></span></a>
 
           <div>
             <div style="height: 10px; overflow: hidden;"></div>
@@ -113,8 +146,16 @@
           </div>
 
           <h2 id="wg">Web Games:</h2>
+          <a onclick="top.loadGame('/gfiles/gsol/index.html')">
+          <span style="color: white;">GSolitare <span style="color:pink;">(New)</span></span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
+          <a onclick="top.loadGame('/gfiles/tunnel-rush/index.html')">
+          <span style="color: white;">Tunnel Rush <span style="color:pink;">(New)</span></span></a>
+          <div style="height: 10px; overflow: hidden;"></div>
+
           <a onclick="top.loadGame('/gfiles/slope/index.html')">
-            <span style="color: white;">Slope <span style="color:pink;">(New)</span></span></a>
+            <span style="color: white;">Slope</span></a>
           <div style="height: 10px; overflow: hidden;"></div>
 
           <a onclick="top.loadGame('/gfiles/8-ball-pool/index.html')">

@@ -1,0 +1,659 @@
+/*! jQuery UI - v1.12.1 - 2016-09-14
+* http://jqueryui.com
+* Includes: core.css, accordion.css, autocomplete.css, menu.css, button.css, controlgroup.css, checkboxradio.css, datepicker.css, dialog.css, draggable.css, resizable.css, progressbar.css, selectable.css, selectmenu.css, slider.css, sortable.css, spinner.css, tabs.css, tooltip.css, theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana%2CArial%2Csans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=cccccc&bgTextureHeader=highlight_soft&bgImgOpacityHeader=75&borderColorHeader=aaaaaa&fcHeader=222222&iconColorHeader=222222&bgColorContent=ffffff&bgTextureContent=flat&bgImgOpacityContent=75&borderColorContent=aaaaaa&fcContent=222222&iconColorContent=222222&bgColorDefault=e6e6e6&bgTextureDefault=glass&bgImgOpacityDefault=75&borderColorDefault=d3d3d3&fcDefault=555555&iconColorDefault=888888&bgColorHover=dadada&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=999999&fcHover=212121&iconColorHover=454545&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=aaaaaa&fcActive=212121&iconColorActive=454545&bgColorHighlight=fbf9ee&bgTextureHighlight=glass&bgImgOpacityHighlight=55&borderColorHighlight=fcefa1&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
+* Copyright jQuery Foundation and other contributors; Licensed MIT */
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+canvas {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+a {
+    background: transparent
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+img {
+    border: 0
+}
+
+input {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+td {
+    padding: 0
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover,
+a:focus {
+    color: #0023fe;
+    text-decoration: underline
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+img {
+    vertical-align: middle
+}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {}
+
+@media (min-width:1200px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {}
+
+@media (min-width:1200px) {}
+
+table {
+    max-width: 100%
+}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:768px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media screen and (min-width:768px) {}
+
+@-webkit-keyframes progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
+
+@keyframes progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {}
+
+@media screen and (min-width:768px) {}
+
+@-ms-viewport {
+    width: device-width
+}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) and (max-width:991px) {}
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+@media (min-width:1200px) {}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) and (max-width:991px) {}
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+@media (min-width:1200px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {}
+
+@media (min-width:1200px) {}
+
+@keyframes fade-in-slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@media (max-width:567px) {}
+
+@media (min-width:568px) {}
+
+@media (min-width:568px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:992px) {}
+
+@media (max-width:390px) {}
+
+@media (max-width:992px) {}
+
+@media (max-width:390px) {}
+
+@media (max-width:991px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px),
+(max-height:800px) {}
+
+@media (min-height:1200px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:35.5em) {}
+
+@supports (display:grid) {
+    .donate-cryptocurrency-page .cryptocurrency-options__currency-actions>* {
+        margin: 0
+    }
+}
+
+@media (min-width:35.5em) {}
+
+@media (min-width:35.5em) {}
+
+@media (min-width:390px) {}
+
+@media (min-width:768px) {}
+
+@media screen and (max-width:480px) {}
+
+@media (max-width:992px) and (min-width:768px) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:480px) {}
+
+@media (max-width:767px) {}
+
+@media (min-width:1501px) {}
+
+@media (min-width:768px) and (max-width:1500px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:859px) {}
+
+@media (min-width:768px) and (max-width:1200px) {}
+
+@media (min-width:1201px) {}
+
+@media (min-width:768px) {}
+
+@media (max-width:1200px) {}
+
+@media screen and (max-width:767px) {}
+
+@media (max-width:599px) {}
+
+@media (max-width:500px) {}
+
+html,
+body {
+    height: 100%;
+    color: #2c2c2c
+}
+
+a,
+a:hover,
+a:focus {
+    color: #4b64ff
+}
+
+#wrap {
+    min-height: 100%;
+    height: 100%;
+    min-width: 320px
+}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) and (max-width:991px) {}
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+@media (min-width:1200px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:991px) {}
+
+@media (min-width:768px) {}
+
+.hidden-for-screen-readers {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden
+}
+
+.hidden-for-screen-readers:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    outline: thin dotted #333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.ghost {
+    -moz-opacity: .6;
+    opacity: .6
+}
+
+.ghost90,
+.ghost:hover,
+.ghost50:hover,
+.ghost80:hover {
+    -moz-opacity: .9;
+    opacity: .9;
+    filter: alpha(opacity=90)
+}
+
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: .2
+    }
+}
+
+@keyframes blinker {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: .2
+    }
+}
+
+@media (max-width:390px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:991px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {}
+
+@media (max-width:567px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:390px) {}
+
+@media (max-width:440px) {}
+
+@media (max-width:390px) {}
+
+@media (min-width:391px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:567px) {}
+
+@media (min-width:568px) {}
+
+@media (max-width:4000px) {}
+
+@media (min-width:4001px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {}
+
+@media (min-width:1200px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:992px) {}
+
+@media (min-width:1200px) {}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}
+
+@media (max-width:991px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:991px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:567px) {}
+
+@media (min-width:568px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:390px) {}
+
+@media (min-width:992px) {}
+
+@media (max-width:991px) {}
+
+@media (min-width:992px) {}
+
+@media (min-width:992px) {}
+
+@media (max-width:991px) {}
+
+@media (max-width:991px) {}
+
+@media (min-width:992px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:390px) {}
+
+@media (max-width:1199px) {}
+
+@media (max-width:991px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+body.navia #emulate {
+    background-color: black
+}
+
+body.navia #emulate #screenshot {
+    position: absolute;
+    z-index: 1
+}
+
+body.navia #emulate #screenshot>img {
+    margin: auto
+}
+
+body.navia #emulate img.ghost {
+    position: absolute;
+    z-index: 2
+}
+
+body.navia #emulate #canvas {
+    width: auto !important;
+    height: 100% !important;
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain; 
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+body.navia #emulate #gamepadtext {
+    visibility: hidden
+}
+
+body.navia #emulate #canvasholder .emularity-splash-screen {
+    color: white;
+    background-color: black;
+}
+
+body.navia #emulate #canvasholder .emularity-splash-screen .emularity-splash-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+body.navia #emulate #canvasholder .emularity-splash-screen .emularity-splash-title {
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font: 24px sans-serif
+}
+
+body.navia #emulate #canvasholder .emularity-splash-screen .emularity-progress-indicator {
+    color: white;
+    background-color: black;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 2px
+}
+
+body.navia #emulate #canvasholder .emularity-splash-screen .emularity-progress-indicator tr {
+    text-align: center
+}
+
+body.navia #emulate #canvasholder .emularity-splash-screen .emularity-progress-indicator tr td {
+    position: relative;
+    padding-top: 4px
+}
+
+body.navia #emulate #canvasholder .emularity-splash-screen .emularity-progress-indicator tr td .emularity-download-title {
+    white-space: nowrap
+}
+
+body.navia #emulate #canvasholder .emularity-splash-screen .emularity-progress-indicator tr td .emularity-download-status {
+    position: absolute;
+    left: .5em
+}
+
+body.navia #emulate #canvasholder .emularity-splash-screen .emularity-progress-indicator tr td.emularity-download-success {
+    font-weight: bold;
+    color: black;
+    background-color: white
+}
+
+body.navia.embedded #emulate {
+    min-height: 100%
+}
+
+body.navia.embedded #emulate #canvasholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.navia.embedded #emulate #canvasholder .emularity-splash-screen {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0
+}
+
+body.navia.embedded #emulate #screenshot {
+    margin-left: 0;
+    max-width: 100%;
+    width: 100%;
+    height: 100%
+}
+
+body.navia.embedded #emulate #screenshot img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%
+}
+
+body.navia.embedded #emulate img.ghost {
+    top: 40%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    margin-left: 0
+}
+
+@media (max-width:767px) {}
+
+@media (max-width:600px) {}
+
+body.embedded {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden
+}
+
+@media (max-width:767px) {}
+
+@media (max-width:767px) {}
+
+@media (min-width:768px) {}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="00_marquee_sfa3.png" source="original">
+    <mtime>1641856985</mtime>
+    <size>935969</size>
+    <md5>5228d292187279000ba4b64b8d31e353</md5>
+    <crc32>b5d1e034</crc32>
+    <sha1>129425650705157b9e3965772f9afb220b9df3d5</sha1>
+    <format>PNG</format>
+  </file>
+  <file name="00_marquee_sfa3_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>00_marquee_sfa3.png</original>
+    <mtime>1641857038</mtime>
+    <size>7416</size>
+    <md5>dc2b373df6a6473ac125ffdd24bf602b</md5>
+    <crc32>34d4e5a2</crc32>
+    <sha1>c60bf0f487e9fad375bed97596ca171ddf513fea</sha1>
+  </file>
+  <file name="00marquee.png" source="original">
+    <mtime>1600356529</mtime>
+    <size>935969</size>
+    <md5>5228d292187279000ba4b64b8d31e353</md5>
+    <crc32>b5d1e034</crc32>
+    <sha1>129425650705157b9e3965772f9afb220b9df3d5</sha1>
+    <format>PNG</format>
+  </file>
+  <file name="00marquee_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>00marquee.png</original>
+    <mtime>1600356569</mtime>
+    <size>4456</size>
+    <md5>be83d7d10150fcdf8e0c23583f865af3</md5>
+    <crc32>31e70080</crc32>
+    <sha1>23a49113314dbd35ba2f791ae313dd45840bac8d</sha1>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1640993539</mtime>
+    <size>10619</size>
+    <md5>af65f6bbc9816242c9ebd9901b68164f</md5>
+    <crc32>eca6df91</crc32>
+    <sha1>f28e22e07e752cf264b1edb873a1982f44156f0c</sha1>
+    <format>Item Tile</format>
+    <rotation>0</rotation>
+  </file>
+  <file name="arcade_sfa3_archive.torrent" source="metadata">
+    <btih>044b45275614bf6557bbfba0e0eb283f5152401d</btih>
+    <mtime>1732284299</mtime>
+    <size>7274</size>
+    <md5>4f3d24e6b0c33a07d4030cacd74a3f7f</md5>
+    <crc32>3dbed49a</crc32>
+    <sha1>da6174ec2b647c4d25e6a54693b63b909ad24024</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="arcade_sfa3_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>0de9370e4e643a17091b4714c602dd0e</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="arcade_sfa3_meta.sqlite" source="original">
+    <mtime>1641856989</mtime>
+    <size>15360</size>
+    <md5>1bb3d00fd3ad0a2322161e8dc7accc92</md5>
+    <crc32>150bd8e4</crc32>
+    <sha1>cbeffc10cbd8429c5b261c29c8dbdcf4e379f275</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="arcade_sfa3_meta.xml" source="original">
+    <mtime>1686964426</mtime>
+    <size>5423</size>
+    <format>Metadata</format>
+    <md5>16f6939b36e0fe008a0fcc8620e08859</md5>
+    <crc32>c1f7db07</crc32>
+    <sha1>f7067b4e0b9ab750eea2cf3a2ca815b300e253e7</sha1>
+  </file>
+  <file name="arcade_sfa3_reviews.xml" source="original">
+    <mtime>1732284297</mtime>
+    <size>3195</size>
+    <md5>1d15e771e260b0d6e2f8f2a819847540</md5>
+    <crc32>ee196cda</crc32>
+    <sha1>d18bff02e15ae8c01aad6dacd8917add3dbf35d9</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="arcade_sfa3_screenshot.png" source="original">
+    <mtime>1600358947</mtime>
+    <size>27338</size>
+    <md5>16983dd5d6eefc9bcc530884ff90f8f4</md5>
+    <crc32>93fa12b3</crc32>
+    <sha1>879710c5143bd9fcd4ddc905c133c1bbc4b6275b</sha1>
+    <format>Emulator Screenshot</format>
+  </file>
+  <file name="history/files/sfa3.zip.~1~" source="original">
+    <mtime>1600398625</mtime>
+    <size>34903415</size>
+    <md5>1b1e221f09317450828f9136730f3444</md5>
+    <crc32>90eec835</crc32>
+    <sha1>d35512ff94a1ac70363e9c1d217e87d910430911</sha1>
+    <format>ZIP</format>
+    <old_version>true</old_version>
+  </file>
+  <file name="history/files/sfa3.zip.~2~" source="original">
+    <mtime>1603338275</mtime>
+    <size>34903415</size>
+    <md5>1b1e221f09317450828f9136730f3444</md5>
+    <crc32>90eec835</crc32>
+    <sha1>d35512ff94a1ac70363e9c1d217e87d910430911</sha1>
+    <format>ZIP</format>
+    <old_version>true</old_version>
+  </file>
+  <file name="qsound_hle.zip" source="original">
+    <mtime>1640993495</mtime>
+    <size>2676</size>
+    <md5>758388893761ea3ff0d820f60344a38e</md5>
+    <crc32>75133cf1</crc32>
+    <sha1>b875be47c087d7a0d484d29232a23fd0bae736e6</sha1>
+    <format>ZIP</format>
+    <filecount>1</filecount>
+  </file>
+  <file name="sfa3.zip" source="original">
+    <mtime>1640993499</mtime>
+    <size>34903415</size>
+    <md5>1b1e221f09317450828f9136730f3444</md5>
+    <crc32>90eec835</crc32>
+    <sha1>d35512ff94a1ac70363e9c1d217e87d910430911</sha1>
+    <format>ZIP</format>
+    <filecount>72</filecount>
+  </file>
+</files>

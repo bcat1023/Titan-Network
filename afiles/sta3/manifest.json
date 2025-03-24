@@ -1,0 +1,19 @@
+{
+  "originalUrl": "https://archive.org/embed/arcade_sfa2",
+  "title": "Street Fighter Alpha 2 (Euro 960229) [sfa2] - MAME 0.239 (ILP32)",
+  "archiveTime": "2025-03-21T00:26:30.538Z",
+  "indexFilename": "index.html",
+  "resources": {
+    "stylesheet_0.css": "https://archive.org/includes/build/css/archive.min.css?v=4f03c6af",
+    "scripts/9.gz": "https://emularity-engine.ux-b.archive.org/mamecps2.js.gz",
+    "scripts/5.js": "https://archive.org/components/npm/lit/polyfill-support.js?v=4f03c6af",
+    "scripts/4.js": "https://archive.org/includes/athena.js?v=4f03c6af",
+    "scripts/6.js": "https://archive.org/components/npm/@webcomponents/webcomponentsjs/webcomponents-bundle.js?v=4f03c6af",
+    "scripts/7.js": "https://archive.org/includes/build/js/emulation.min.js?v=4f03c6af",
+    "scripts/8.js": "https://archive.org/services/emularity/engine/browserfs.min.js?v=4f03c6af",
+    "images/0.jpg": "https://archive.org/images/glogo.jpg",
+    "images/2.png": "https://archive.org/images/start.png",
+    "images/3.png": "https://archive.org/images/mame.png",
+    "images/1.png": "https://archive.org/serve/arcade_sfa2/sfa2_screenshot.png"
+  }
+}

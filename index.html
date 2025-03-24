@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Aeries</title>
-  <base id="base" href="https://titan-cdn.nookalley.com">
+  <!--<base id="base" href="https://titan-cdn.nookalley.com"> Disabled for Development-->
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +52,7 @@
         <h1>Titan Network</h1>
         <h4>Blocked? Use the mirror! <a href="//tinyurl.com/8081GN">tinyurl.com/8081GN</a></h4>
         <h4>
-          <p>v3.1.4 | <a href="//nookalley.com">powered by nookalley.com</a></p>
+          <p>v3.2.0 | <a href="//nookalley.com">powered by nookalley.com</a></p>
         </h4>
       </div>
     </div>
@@ -70,7 +70,7 @@
     <!-- end of games-->
     <!-- Currently Playing -->
     <div id="Now Playing" class="tabcontent">
-      <iframe onload="loafhide()" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
+      <iframe onload="loafhide()" sandbox="allow-pointer-lock allow-scripts allow-same-origin"  allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
         oallowfullscreen="true" msallowfullscreen="true" id="player" src="./notrunning.html" class="igame"></iframe>
     </div>
 
@@ -104,7 +104,7 @@
 
 </html>
 <!-- Has to be at the end to function -->
-<script src="/js/primary.js" defer></script>
+<script src="/js/primary.js"></script>
 <script src="/tests/console.js"></script>
 <script defer>
 
