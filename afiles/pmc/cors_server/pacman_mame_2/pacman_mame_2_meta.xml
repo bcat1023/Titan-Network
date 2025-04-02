@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <identifier>pacman_mame_2</identifier>
+  <mediatype>software</mediatype>
+  <collection>miscconsoles</collection>
+  <creator>Namco</creator>
+  <date>1980-05-22</date>
+  <description>&lt;p style="margin-top:0px;margin-bottom:1rem;color:rgb(51,51,51);font-family:'-apple-system', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';font-size:15px;background-color:rgb(250,250,250);"&gt;One of the most popular and influential games of the 1980's, &lt;em&gt;Pac-Man&lt;/em&gt; stars a little, yellow dot-muncher who works his way around to clear a maze of the various dots and fruit which inhabit the board.&lt;/p&gt;&lt;p style="margin-top:0px;margin-bottom:1rem;color:rgb(51,51,51);font-family:'-apple-system', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';font-size:15px;background-color:rgb(250,250,250);"&gt;Pac-Man's goal is continually challenged by four ghosts: The shy blue ghost Bashful ("Inky"), the trailing red ghost Shadow ("Blinky"), the fast pink ghost Speedy ("Pinky"), and the forgetful orange ghost Pokey ("Clyde"). One touch from any of these ghosts means loss of a life for Pac-Man.&lt;/p&gt;&lt;p style="margin-top:0px;margin-bottom:1rem;color:rgb(51,51,51);font-family:'-apple-system', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';font-size:15px;background-color:rgb(250,250,250);"&gt;Pac-Man can turn the tables on his pursuers by eating one of the four Power-Pills located around the maze. During this time, the ghosts turn blue, and Pac-Man can eat them for bonus points. This only lasts for a limited amount of time as the ghosts' eyes float back to their center box and regenerate to chase after Pac-Man again.&lt;/p&gt;&lt;p style="margin-top:0px;margin-bottom:0px;color:rgb(51,51,51);font-family:'-apple-system', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';font-size:15px;background-color:rgb(250,250,250);"&gt;Survive a few rounds of gameplay, and be treated to humorous intermissions starring Pac-Man and the ghosts.&lt;/p&gt;</description>
+  <scanner>Internet Archive HTML5 Uploader 1.7.0</scanner>
+  <subject>Pac-Man</subject>
+  <subject>Arcade</subject>
+  <title>Pac-Man (Arcade)</title>
+  <uploader>jen.waughtal@gmail.com</uploader>
+  <publicdate>2024-03-21 11:09:25</publicdate>
+  <addeddate>2024-03-21 11:09:25</addeddate>
+  <curation>[curator]validator@archive.org[/curator][date]20240321111112[/date][comment]checked for malware[/comment]</curation>
+  <year>1980</year>
+  <emulator>pacman</emulator>
+  <emulator_ext>zip</emulator_ext>
+  <collection>consolelivingroom</collection>
+  <collection>emulation</collection>
+</metadata>

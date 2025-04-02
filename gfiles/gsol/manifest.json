@@ -1,0 +1,15 @@
+{
+  "originalUrl": "https://www.google.com/logos/fnbx/solitaire/standalone.3.html?hl=en",
+  "title": "Google Solitaire",
+  "archiveTime": "2025-03-22T23:02:21.094Z",
+  "indexFilename": "index.html",
+  "resources": {
+    "stylesheet_0.css": "https://www.google.com/logos/fnbx/solitaire/ipad.css",
+    "stylesheet_1.css": "https://www.google.com/logos/fnbx/solitaire/mobile_portrait.css",
+    "stylesheet_2.css": "https://www.google.com/logos/fnbx/solitaire/default.2.css",
+    "scripts/3.js": "https://www.google.com/logos/fnbx/solitaire/solitaire_compiled.4.js",
+    "images/2.png": "https://www.google.com/logos/fnbx/solitaire/ribbon_no_text.png",
+    "images/1.ico": "https://www.google.com/favicon.ico",
+    "images/0.png": "https://www.google.com/logos/fnbx/solitaire/card-sprite.2.png"
+  }
+}

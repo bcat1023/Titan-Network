@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Titan network, we got everything">
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+    data-cf-beacon='{"token": "7ad8f76b27dc43a0b348758ae238505a"}'></script><!-- End Cloudflare Web Analytics -->
 </head>
 
 <body id="body" style="background-image: url('/img/back.webp');">
@@ -46,13 +49,13 @@
     <!-- index-->
     <div id="index" class="tabcontent">
       <div class="notfibar">
-        <p id="tick" class="activetick">Welcome to Titan Network v3</p>
+        <p id="tick" class="activetick">Welcome to Titan Network v3.2 | New games are available!</p>
       </div>
       <div class="centerh containerc">
         <h1>Titan Network</h1>
         <h4>Blocked? Use <b>NEW</b> the mirror! <a href="https://tinyurl.com/8011GN">tinyurl.com/8011GN</a></h4>
         <h4>
-          <p>v3.1.5 | <a href="//nookalley.com">powered by nookalley.com</a></p>
+          <p>v3.2.0 | <a href="//nookalley.com">powered by nookalley.com</a></p>
         </h4>
       </div>
     </div>
@@ -70,8 +73,9 @@
     <!-- end of games-->
     <!-- Currently Playing -->
     <div id="Now Playing" class="tabcontent">
-      <iframe onload="loafhide()" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
-        oallowfullscreen="true" msallowfullscreen="true" id="player" src="./notrunning.html" class="igame"></iframe>
+      <iframe onload="loafhide()" sandbox="allow-pointer-lock allow-scripts allow-same-origin" allowfullscreen="true"
+        webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"
+        id="player" src="./notrunning.html" class="igame"></iframe>
     </div>
 
     <!-- contact-->
@@ -104,7 +108,7 @@
 
 </html>
 <!-- Has to be at the end to function -->
-<script src="/js/primary.js" defer></script>
+<script src="/js/primary.js"></script>
 <script src="/tests/console.js"></script>
 <script defer>
 

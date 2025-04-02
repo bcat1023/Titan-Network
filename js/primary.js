@@ -53,10 +53,13 @@ function openPage(evt, tab) {
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(tab).style.display = "block";
   //evt.currentTarget.className += " active";
+  if (tab == "Now Playing") {
+    document.getElementById("player").focus();
+  }
   loafhide()
 }
 
-// Redo for efficency *$^
+// Note to self: rewrite this ticker code
 document.getElementById('tick').style.opacity = 1
 setTimeout(() => {
   document.getElementById('tick').style.opacity = 0
@@ -65,7 +68,7 @@ setTimeout(() => {
 
 function tick1() {
   setTimeout(() => {
-    document.getElementById('tick').innerText = "Slope and Papa's Bakeria now available"
+    document.getElementById('tick').innerText = "All of the Duck Life games are available"
     document.getElementById('tick').style.opacity = 1
     setTimeout(() => {
       document.getElementById('tick').style.opacity = 0
@@ -76,7 +79,7 @@ function tick1() {
 
 function tick2() {
   setTimeout(() => {
-    document.getElementById('tick').innerText = "Your looking at Titan Network v3, how is it?"
+    document.getElementById('tick').innerText = "Try Street Fighter 3"
     document.getElementById('tick').style.opacity = 1
     setTimeout(() => {
       document.getElementById('tick').style.opacity = 0
@@ -87,7 +90,7 @@ function tick2() {
 
 function tick3() {
   setTimeout(() => {
-    document.getElementById('tick').innerText = "I have over 294 game requests to process, its going to take awhile..."
+    document.getElementById('tick').innerText = "// FILL THIS IN LATER"
     document.getElementById('tick').style.opacity = 1
     setTimeout(() => {
       document.getElementById('tick').style.opacity = 0
@@ -112,12 +115,6 @@ function backstop(toggle) {
   }
 }
 
-var g = document.getElementById('gframe').clientHeight
-var n = document.getElementById('navbar').clientHeight
-
-function resizeGFrame() { g = g - n; console.log(g + " " + n) };
-window.onresize = resizeGFrame;
-
 // New functions
 const player = document.getElementById('player')
 function loadGame(url) {
@@ -129,3 +126,9 @@ function loadGame(url) {
 function handleLinkClick(event) {
   event.preventDefault();
 }
+
+window.addEventListener("message", function (event) {
+  if (event.data === "focusIframe") {
+      document.getElementById("player").focus();
+  }
+});
