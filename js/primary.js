@@ -90,7 +90,7 @@ function tick2() {
 
 function tick3() {
   setTimeout(() => {
-    document.getElementById('tick').innerText = "// FILL THIS IN LATER"
+    document.getElementById('tick').innerText = "New: Tunnel Rush"
     document.getElementById('tick').style.opacity = 1
     setTimeout(() => {
       document.getElementById('tick').style.opacity = 0
